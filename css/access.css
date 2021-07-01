@@ -1,0 +1,194 @@
+.A {
+  background:url("../img/ks5d5079.jpg" )
+  no-repeat ;
+  background-size: cover;
+
+  height:500px;  
+}
+
+iframe {
+  margin-top:50px;
+width:50%;
+margin-right:100px;
+}
+
+.map {
+  display:flex;
+  margin-top:100px;
+  margin-left:100px;
+
+} 
+
+.map p {
+  position:relative;
+  left:50px;
+  line-height: 2.5;
+  margin-top:40px;
+}
+
+.tel {
+  font-size:12px;
+  width:25%;
+  border:solid orange;
+  padding-top:50px;
+ height:150px;
+ margin-right:50px;
+ font-size:20px;
+ font-family: serif;
+ padding-bottom:70px;
+ background-color: pink;
+}
+
+span {
+  font-size:20px;
+  font-family: serif;
+  margin-left:70px;
+}
+
+.txt {
+  font-family: serif;
+ font-size:20px;
+ position:relative;
+ left:200px;
+}
+
+img {
+  width:30%;
+  float:right;
+  margin-top:-290px;
+  margin-right:40px;
+  width:25%;
+}
+
+body {
+  background-color:rgb(182, 164, 107);
+}
+
+@media screen and (max-width: 1024px) {
+
+  body {
+    height:2300px;
+    
+  }
+  main {
+   overflow: hidden; 
+  }
+
+  .tel {
+    font-size:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+  }
+
+  .map {
+    overflow: hidden;
+  }
+  .txt {
+    font-size:20px;
+    overflow:hidden;
+  }
+
+  .map p {
+    position:relative;
+    left:-40px;
+  }
+
+  .tel span {
+    font-size:10px;
+    
+  }
+
+  img {
+    width:300px;
+    margin-top:-70px;
+    position:relative;
+    left:-200px;
+  }
+
+  iframe {
+    margin-left:-50px;
+  }
+  main {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  iframe {
+    width:300px;
+    height:350px;
+    margin-left:-50px;
+  }
+
+  img {
+    width:200px;
+    margin-top:80px;
+  }
+
+  .tel {
+    font-size:9px;
+  
+  }
+
+span {
+  margin-left:25px;
+}
+
+body {
+  height:1900px;
+}
+
+.txt{
+  font-size:15px;
+position:relative;
+top:20px;
+position:relative;
+left:5px;
+width:200px;
+}
+}
+
+@media screen and (max-width: 480px) {
+iframe {
+  width:500px;
+  margin-left:-50px;
+  margin-top:30px;
+}
+
+.txt {
+  margin-left:-290px;
+ position:relative;
+ top:400px;
+}
+img {
+  margin-top:400px;
+}
+
+main {
+  height:2000px;
+}
+
+.tel {
+  position:relative;
+  top:1000px;
+  position:relative;
+  left:-300px;
+ padding:100px;
+ font-size:15px;
+
+}
+
+#text {
+  flex-wrap: nowrap;
+}
+
+.tel span {
+  font-size:15px;
+  
+}
+
+body {
+  height:3000px;
+}
+}

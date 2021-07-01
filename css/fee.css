@@ -1,0 +1,146 @@
+.A {
+  background:url("../img/R13b7b86ab5f896bd57b0e6bdce554f66.jpg") 
+  no-repeat ;
+  background-size: cover;
+
+  height:500px;  
+}
+
+.table {
+  display:flex;
+}
+
+table {
+border:double black;
+margin-top:100px;
+}
+
+.t1 td {
+  border:double black;
+  padding-left:80px;
+}
+
+.t1 th {
+  border:double black; 
+}
+.t2 td {
+  border:double black;
+  padding-left:80px;
+}
+
+.t2 th {
+  border:double black; 
+}
+
+
+.t1 {
+  margin-right: 150px;
+  margin-left:150px;
+  width:30%;
+}
+
+.t2 {
+  width:30%;
+}
+
+.v {
+  font-size: 30px;
+  margin-top:100px;
+  margin-bottom:-50px;
+ display:flex;
+}
+
+.w {
+  margin-right:410px;
+  margin-left:315px;
+}
+
+
+body {
+  background:url("../img/ダウンロード.jpg")
+  no-repeat;
+  background-size:cover;
+}
+
+@media screen and (max-width: 1024px) {
+ body {
+   height:2000px;
+ }
+
+ .w {
+ margin-left:270px;
+ margin-right:300px;
+ }
+
+ .table td {
+padding-left:57px;
+ }
+}
+
+@media screen and (max-width: 768px)  {
+body {
+  height:1650px;
+}
+.w {
+  margin-left:185px;
+  margin-right:240px;
+}
+
+.v p{
+  font-size:20px;
+  font-weight:bold;
+}
+
+.table {
+  padding-right:250px;
+  margin-left:-50px;
+}
+
+.table td {
+  padding-left:30px;
+ padding-right:30px;
+  font-size:15px;
+  white-space: nowrap;
+}
+
+
+}
+
+@media screen and (max-width: 480px)  {
+.w {
+  white-space: nowrap;
+  margin-top:-70px;
+}
+
+.v {
+  white-space: nowrap;
+  
+}
+
+.v p {
+  position:relative;
+  left:-350px;
+  position:relative;
+  top:80px;
+}
+
+
+
+.table {
+  margin-top:-150px;
+}
+
+.w p {
+margin-left:-9910px;
+}
+
+body {
+  height:3000px;
+  overflow: visible;
+}
+.t2 {
+  margin-left:-350px;
+  position:relative;
+  top:150px;
+  }
+}
